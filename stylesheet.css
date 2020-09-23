@@ -23,7 +23,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://hdwallpaper20.com/wp-content/uploads/data/2018/3/3/36544950-math-pictures.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -41,61 +41,27 @@ a {
   margin-bottom: 3px;
 }
 
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(161, 58, 203, 0.81);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
 
 .header-left {
   float: left;
+}
+
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right {
@@ -128,14 +94,14 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+  background-color: #0E0B16;
+  text-align: left;
 }
 
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #4717F6;
 }
 
 .heading h2 {
@@ -151,19 +117,13 @@ header {
   position: relative;
 }
 
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #4717F6;
+  text-align: left;
 }
 
 .heading h3 {
@@ -178,27 +138,19 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #E7DFDD;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
 }
 
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
 
 footer p {
-  color: #b3aeb5;
+  color: #4717F6;
   font-size: 12px;
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: rgba(161, 58, 203, 0.81);
+
 }
