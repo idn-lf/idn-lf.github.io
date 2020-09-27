@@ -60,6 +60,7 @@ header {
   font-size: 30px;
   padding: 0 25px;
   color: white;
+  font-weight:bold
   display: block;
   float: left;
   transition: all 0.5s;
@@ -106,7 +107,7 @@ header {
 }
 
 .heading h2 {
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
 
 }
@@ -132,16 +133,19 @@ header {
   color: #fff;
 
 }
+.heading h4 {
+  font-weight: normal;
+  text-align: left;
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
+  background-color: #0E0B16;
   text-align: center;
 }
 
 .message {
   padding: 15px 40px;
-  background-color: #0E0B16;
   cursor: pointer;
 }
 
@@ -149,6 +153,7 @@ header {
 footer p {
   color: #ffffff;
   font-size: 15px;
+  font-weight:bold
 }
 
 footer {
