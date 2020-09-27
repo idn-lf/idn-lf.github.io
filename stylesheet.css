@@ -95,14 +95,14 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #0E0B16;
+  background-color: #E7DFDD;
   text-align: left;
 }
 
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #4717F6;
+  color: #0E0B16;
 }
 
 .heading h2 {
@@ -113,7 +113,7 @@ header {
 
 .lesson {
   float: center;
-  width: 75%;
+  width: 65%;
 }
 
 .lesson-icon {
@@ -139,7 +139,7 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #E7DFDD;
+  background-color: #0E0B16;
   cursor: pointer;
 }
 
@@ -152,6 +152,6 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: 4717F6;
+  background-color: #a13acb;
 
 }
