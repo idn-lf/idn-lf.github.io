@@ -19,6 +19,7 @@ a {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+
 }
 
 .top-wrapper {
@@ -125,7 +126,7 @@ header {
 
 .text-contents {
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 20px;
   color: #0E0B16;
   text-align: left;
 }
