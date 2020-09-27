@@ -155,13 +155,13 @@ header {
 }
 
 
-footer p {
+ .footer p {
   color: #ffffff;
   font-size: 15px;
   font-weight:bold
 }
-
-footer {
+  
+.footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #a13acb;
