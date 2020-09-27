@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Helvetica";
+  font-family:'Helvetica', 'Arial', sans-serif;
 }
 
 a {
@@ -147,6 +147,8 @@ header {
 .message {
   padding: 15px 40px;
   cursor: pointer;
+  background-color: #0E0B16;
+
 }
 
 
