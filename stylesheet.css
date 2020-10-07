@@ -151,6 +151,19 @@ header {
   cursor: pointer;
   background-color: #0E0B16;
 }
+.tooplate_sidebar_wrapper {
+  background-attachment:scroll;
+  background-clip:border-box;
+  background-origin:padding-box;
+  color:rgb(88, 65, 42);
+  display:block;
+  float:right;
+  font-size:12px;
+  height:1196px;
+  line-height:18px;
+  margin-right:20px;
+  idth:280px;
+}
   
 input , textarea {
   width: 400px;
@@ -165,15 +178,9 @@ input , textarea {
   background-color: #dee7ec;
   color: #889eab;
   
-footer {
+tooplate_footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: rgba(161, 58, 203, 0.81);
 }
 
- .footer p {
-  color: #ffffff;
-  font-size: 15px;
-  font-weight:bold
-}
-  
