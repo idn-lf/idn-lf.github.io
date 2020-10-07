@@ -140,7 +140,7 @@ header {
   font-weight: normal;
   text-align: left;
 
-.message-wrapper {
+message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
@@ -152,7 +152,7 @@ header {
   background-color: #0E0B16;
 }
 
-.footer {
+footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: rgba(161, 58, 203, 0.81);
