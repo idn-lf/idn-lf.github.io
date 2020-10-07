@@ -140,7 +140,7 @@ header {
   font-weight: normal;
   text-align: left;
 
-message-wrapper {
+.message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
