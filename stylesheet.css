@@ -109,6 +109,8 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  color: #fff;
+
 }
 
 .lesson {
@@ -118,6 +120,8 @@ header {
 
 .lesson-icon {
   position: relative;
+  float: center;
+
 }
 
 .lesson-icon p {
