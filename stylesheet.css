@@ -110,7 +110,10 @@ header {
 .heading h2 {
   font-weight: normal;
   color: #fff;
-
+}
+.heading h3 {
+  font-weight: bold;
+  color: #0E0B16;
 }
 
 .lesson {
