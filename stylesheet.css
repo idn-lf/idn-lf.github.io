@@ -114,17 +114,17 @@ header {
 }
 
 .lesson {
-  float: left;
+  float: center;
   width: 25%;
 }
 
 .lesson-icon {
-  float: center;
+ position: relative;
 
 }
 
 .lesson-icon p {
-  position: absolute;
+  position: relative;
   top: 44%;
   width: 100%;
   color: white;
