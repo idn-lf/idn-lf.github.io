@@ -115,12 +115,11 @@ header {
 
 .lesson {
   float: center;
-  width: 25%;
 }
 
 .lesson-icon {
  position: relative;
-
+ float: center;
 }
 
 .lesson-icon p {
