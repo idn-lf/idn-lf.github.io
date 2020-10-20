@@ -19,12 +19,11 @@ a {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
-
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://hdwallpaper20.com/wp-content/uploads/data/2018/3/3/36544950-math-pictures.jpg);
+  background-image: url(https://github.com/idn-lf/idn-lf.github.io/blob/master/WhatsApp%20Image%202020-10-20%20at%2018.42.28.jpeg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -45,17 +44,21 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(161, 58, 203, 0.81);
+  background-color: rgba(108, 191, 132, 1);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
-
 .header-left {
   float: left;
   font-weight:bold
 
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
 }
 
 .header-left a {
@@ -67,11 +70,6 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
 }
 
 .header-right a {
@@ -99,8 +97,8 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #E7DFDD;
-  text-align: left;
+  background-color: #323339;
+  text-align: center;
 }
 
 .heading {
@@ -110,35 +108,36 @@ header {
 }
 
 .heading h2 {
-  font-weight: bold;
-  text-align: left;
-
+  font-weight: normal;
 }
 
 .lesson {
-  float: center;
-  width: 65%;
+  float: left;
+  width: 25%;
 }
 
 .lesson-icon {
   position: relative;
 }
 
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
 .text-contents {
+  width: 75%;
+  display: inline-block;
   margin-top: 15px;
   font-size: 20px;
   color: #0E0B16;
-  text-align: left;
 }
 
 .heading h3 {
   font-weight: normal;
-  color: #fff;
-
 }
-.heading h4 {
-  font-weight: normal;
-  text-align: left;
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
@@ -147,25 +146,17 @@ header {
 }
 
 .message {
+  background-color: #dfe2d2;
   padding: 15px 40px;
   cursor: pointer;
-  background-color: #0E0B16;
 }
   
-.tooplate_sidebar_wrapper {
-  background-attachment:scroll;
-  background-clip:border-box;
-  background-origin:padding-box;
-  color:rgb(88, 65, 42);
-  display:block;
-  float:right;
-  font-size:12px;
-  height:1196px;
-  line-height:18px;
-  margin-right:20px;
-  idth:280px;
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
-  
+
 input , textarea {
   width: 400px;
   margin-top:10px;
@@ -179,14 +170,17 @@ input , textarea {
   background-color: #dee7ec;
   color: #889eab;
   
+
 footer p {
-  color: #b3aeb5;
+  color: #fff;
   font-size: 12px;
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  height: 65px;
+  width: 100%;
   background-color: rgba(161, 58, 203, 0.81);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
-
