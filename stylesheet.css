@@ -212,7 +212,7 @@ footer {
     line-height: 35px;
     font-size: 20px;
   }
-  .header-right a {
+  .header-right {
     display:none;
   }
   .menu-icon {
