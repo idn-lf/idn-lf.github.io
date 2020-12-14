@@ -202,3 +202,8 @@ footer {
   font-size: 12px;
   font-weight: bold;
 }
+
+@media(max-width:1000px){
+  .container {
+    width: 50%;}
+}
