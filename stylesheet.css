@@ -139,7 +139,7 @@ header {
 .lesson-icon p {
   position: relative;
   top: 44%;
-  width: 100%;
+  max-width: 100%;
   color: white;
 }
 
@@ -207,7 +207,7 @@ footer {
   header {
     height: 35px;
   }
-
+  
   .header-left a {
     line-height: 35px;
     font-size: 15px;
@@ -216,6 +216,16 @@ footer {
     line-height: 35px;
     font-size: 15px;
   }
+  .top-wrapper {
+  background-image: url(idn-lf.github.io/bg2.jpg);
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  .heading h3 {
+    font-size: 20px;
+  }
   .top-wrapper h1 {
     font-size: 25px;
     letter-spacing: 2px;
@@ -223,11 +233,15 @@ footer {
   .top-wrapper p {
     font-size: 12px;
   }
-  .konten{
+  .lesson-icon p {
+    font-size: 15px;
+  }
+  .konten p{
     font-size: 15px;
   }
   img{
     max-width: 80%;
+
   }
   .message {
     font-size:15px;
@@ -235,6 +249,6 @@ footer {
   input , textarea {
     width: 60%;
     font-size:15px;
-    height: auto;
+    height: 35px;
   }
 }
