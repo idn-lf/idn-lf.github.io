@@ -76,7 +76,7 @@
         <div class="message">
           <div id="comment_form">
                     <h3>Tinggalkan pesan</h3>
-                    <form action="#" method="get" onSubmit="validasi()">
+                    <form name="form" action="#" method="get" onSubmit="validasi()">
                         <div class="form_row">
                             <label>Nama (* wajib diisi )</label>
                             <br>
@@ -104,15 +104,24 @@
       </div>
     </footer>
   </body>
-  <script type="text/javascript">
-	  function validasi() {
-		  var nama = document.getElementId("name").value;
-		  var email = document.getElementId("email").value;
-		  if (nama !="" && email !=""){
-			  return true;
-		  }else{
-			  alert('Anda harus mengisi data dengan lengkap!');
-		  }
-	  }
-  </script>
+  <script>
+        function validasi() {
+            if (document.forms["form"]["name"].value == "") {
+                alert("Nama Tidak Boleh Kosong!");
+                document.forms["form"]["nama"].focus();
+                return false;
+            }
+            if (document.forms["form"]["email"].value == "") {
+                alert("Email Tidak Boleh Kosong");
+                document.forms["form"]["email"].focus();
+                return false;
+            }
+            if (document.forms["form"]["pesan"].value == "" ) {
+                alert("Pesan Tidak Boleh Kosong");
+                document.forms["form"]["pesan"].focus();
+                return false;
+            }
+        }
+    </script>
+
 </html>
