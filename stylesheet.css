@@ -53,7 +53,7 @@ header {
 
 .header-left {
   float: left;
-  font-weight:bold
+  font-weight:bold;
 
 }
 
@@ -213,10 +213,10 @@ footer {
     font-size: 20px;
   }
   .header-right {
-    display:none;
+    display: none;
   }
   .menu-icon {
-    display:block;
+    display: block;
   }
   .top-wrapper {
   background-image: url(idn-lf.github.io/bg2.jpg);
