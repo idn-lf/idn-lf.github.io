@@ -156,8 +156,11 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-image: url(idn-lf.github.io/fotofoto.jpg);
 }
-
+.konten{
+  background-color: rgba(108, 191, 132, 1);
+}
 .message {
   background-color: #dfe2d2;
   padding: 15px 40px;
@@ -192,8 +195,8 @@ input , textarea {
 footer {
   height: 65px;
   width: 100%;
-  background-color: rgba(161, 58, 203, 0.81);
+  background-color: rgba(108, 191, 132, 1);
   position :fixed;
-  top: 0;
+  bottom: 0;
   z-index: 10;
 }
