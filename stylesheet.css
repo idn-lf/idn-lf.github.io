@@ -100,8 +100,9 @@ header {
   padding-right: 10%;
   background-color: #323339;
   text-align: center;
-  border-bottom:5px solid rgba(108, 191, 132, 1);
-  border-top:5px solid rgba(108, 191, 132, 1);
+  border-bottom:15px solid rgba(108, 191, 132, 1);
+  border-top:15px solid rgba(108, 191, 132, 1);
+  max-height: 200px
 }
 
 .heading {
