@@ -216,7 +216,7 @@ footer {
     display: none !important;
   }
   .menu-icon {
-    display: block;
+    display: inline-block;
   }
   .top-wrapper {
   background-image: url(idn-lf.github.io/bg2.jpg);
