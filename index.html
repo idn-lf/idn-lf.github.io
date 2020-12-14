@@ -76,20 +76,20 @@
         <div class="message">
           <div id="comment_form">
                     <h3>Tinggalkan pesan</h3>
-                    <form action="#" method="get">
+                    <form action="#" method="get" onSubmit="validasi()">
                         <div class="form_row">
                             <label>Nama (* wajib diisi )</label>
                             <br>
-                            <input name="name" type="text">
+                            <input name="name" type="text" id="name">
                         </div>
                         <div class="form_row">
                             <label>Email  (* wajib diisi )</label>
                             <br>
-                            <input name="email" type="text">
+                            <input name="email" type="text" id="email">
                         </div>
                         <div class="form_row">
                             <label>Pesan</label><br>
-                            <textarea name="pesan" rows="2" cols="20"></textarea>
+                            <textarea name="pesan" rows="2" cols="20" id="pesan"></textarea>
                         </div>
                         <input name="Submit" class="submit_btn" type="submit" value="Submit">
                     </form>
@@ -104,4 +104,14 @@
       </div>
     </footer>
   </body>
+  <script type="text/javascript">
+	  function validasi() {
+		  var nama = document.getElementId("name").value;
+		  var email = document.getElementId("email").value;
+		  if (nama !="" && email !=""){
+			  return true;
+		  }ifelse (nama ="" && email =""){
+			  alert('Anda harus mengisi data dengan lengkap!');
+		  }
+  </script>
 </html>
