@@ -194,10 +194,9 @@ input , textarea {
 footer {
   height: 35px;
   max-width: 100%;
-  background-color: rgba(108, 191, 132, 0.8);
+  background-color: rgba(108, 191, 132, 1);
   position :static;
   bottom: 0;
-  z-index: 10;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
