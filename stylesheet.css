@@ -91,7 +91,7 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none !important;
+  display: none;
 }
 
 .lesson-wrapper {
