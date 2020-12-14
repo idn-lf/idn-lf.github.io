@@ -122,7 +122,7 @@ header {
    display:grid;
    list-style-type:none;
    margin:0;padding:0;
-   grid-template-columns: repeat(auto, auto);
+   grid-template-columns: auto auto;
 } 
 .lesson {
   float: center;
