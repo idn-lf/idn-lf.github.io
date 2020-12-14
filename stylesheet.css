@@ -204,6 +204,18 @@ footer {
 }
 
 @media(max-width:1000px){
+  header {
+    height: 35px;
+  }
+
+  .header-left a {
+    line-height: 35px;
+    font-size: 15px;
+  }
+  .header-right a {
+    line-height: 35px;
+    font-size: 15px;
+  }
   .top-wrapper h1 {
     font-size: 25px;
     letter-spacing: 2px;
@@ -215,7 +227,7 @@ footer {
     font-size: 15px;
   }
   img{
-    max-width: 60%;
+    max-width: 80%;
   }
   .message {
     font-size:15px;
@@ -223,5 +235,6 @@ footer {
   input , textarea {
     width: 60%;
     font-size:15px;
+    height: auto;
   }
 }
