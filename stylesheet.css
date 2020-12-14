@@ -214,8 +214,8 @@ footer {
   .konten{
     font-size: 15px;
   }
-  .konten img{
-    width: 60%;
+  img{
+    max-width: 60%;
   }
   .message {
     font-size:15px;
