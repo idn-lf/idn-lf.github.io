@@ -27,6 +27,8 @@ a {
   background-size: cover;
   color: white;
   text-align: center;
+  border-bottom:2px solid rgba(108, 191, 132, 1);
+  border-top:2px solid rgba(108, 191, 132, 1);
 }
 
 .top-wrapper h1 {
@@ -44,7 +46,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(108, 191, 132, 1);
+  background-color: rgba(108, 191, 132, 0.8);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -156,10 +158,10 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
-  background-image: url(idn-lf.github.io/fotofoto.jpg);
+  background-image: url(idn-lf.github.io/fotofotofoto.jpg);
 }
 .konten{
-  background-color: rgba(108, 191, 132, 1);
+  background-color: #c5b95a;
 }
 .message {
   background-color: #dfe2d2;
@@ -187,16 +189,14 @@ input , textarea {
   color: #889eab;
 }
 
-.footer p {
-  color: #fff;
-  font-size: 12px;
-}
-
 footer {
   height: 65px;
   width: 100%;
-  background-color: rgba(108, 191, 132, 1);
+  background-color: rgba(108, 191, 132, 0.8);
   position :fixed;
   bottom: 0;
   z-index: 10;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
 }
