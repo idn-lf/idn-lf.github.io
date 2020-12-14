@@ -91,7 +91,7 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none;
+  display: none !important;
 }
 
 .lesson-wrapper {
@@ -213,7 +213,7 @@ footer {
     font-size: 20px;
   }
   .header-right {
-    display: none;
+    display: none !important;
   }
   .menu-icon {
     display: block;
