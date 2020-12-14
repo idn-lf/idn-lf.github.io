@@ -102,12 +102,11 @@ header {
   text-align: center;
   border-bottom:15px solid rgba(108, 191, 132, 1);
   border-top:15px solid rgba(108, 191, 132, 1);
-  max-height: 200px
 }
 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 5px;
   color: #0E0B16;
 }
 
@@ -158,8 +157,9 @@ header {
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
+  padding-top: 80px;
   padding-bottom: 80px;
-  text-align: center;
+  text-align: enter;
   background-image: url(idn-lf.github.io/fotofotofoto.jpg);
 }
 .konten{
