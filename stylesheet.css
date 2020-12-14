@@ -92,7 +92,11 @@ header {
   padding: 21px 0;
   display: none;
 }
-
+.message-wrapper{
+   background-image: url(idn-lf.github.io/fotofoto.jpg);
+}
+  
+  
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -189,7 +193,7 @@ input , textarea {
   font-size: 12px;
 }
 
-.footer {
+footer {
   height: 65px;
   width: 100%;
   background-color: rgba(161, 58, 203, 0.81);
