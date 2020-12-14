@@ -119,6 +119,7 @@ header {
 }
 
 .lesson {
+  position: relative;
   float: center;
 }
 
@@ -178,12 +179,12 @@ input , textarea {
   color: #889eab;
   
 
-footer p {
+.footer p {
   color: #fff;
   font-size: 12px;
 }
 
-footer {
+.footer {
   height: 65px;
   width: 100%;
   background-color: rgba(161, 58, 203, 0.81);
