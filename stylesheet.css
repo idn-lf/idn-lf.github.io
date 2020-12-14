@@ -118,7 +118,7 @@ header {
 
 }
 
-lessons{
+.lessons{
    display:grid;
    list-style-type:none;
    margin:0;padding:0;
