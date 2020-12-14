@@ -118,8 +118,13 @@ header {
 
 }
 
+lessons{
+   display:grid;
+   list-style-type:none;
+   margin:0;padding:0;
+   grid-template-columns: repeat(auto, auto);
+} 
 .lesson {
-  position: relative;
   float: center;
 }
 
