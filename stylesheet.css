@@ -27,8 +27,7 @@ a {
   background-size: cover;
   color: white;
   text-align: center;
-  border-bottom:2px solid rgba(108, 191, 132, 1);
-  border-top:2px solid rgba(108, 191, 132, 1);
+
 }
 
 .top-wrapper h1 {
@@ -101,6 +100,8 @@ header {
   padding-right: 10%;
   background-color: #323339;
   text-align: center;
+  border-bottom:5px solid rgba(108, 191, 132, 1);
+  border-top:5px solid rgba(108, 191, 132, 1);
 }
 
 .heading {
